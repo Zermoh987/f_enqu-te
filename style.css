@@ -7,34 +7,15 @@ body{
     background-size: cover;
 }
 
-form{
+header{
+    color: #FFF;
+}
+
+.form{
     background-color: rgba(180, 167, 54, 0.794);
-    margin: auto;
-    padding: 5%;
-    width: 700px;
     font-size: 18px;
-    padding: 40px 40px 40px 80px;
-}
-
-.form-control{
-    width: 500px;
-    height: 35px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    display: block;
-    font-size: 18px;
-    padding-left: 10px;
-    border: none;
-}
-
-#dropdown{
-    width: 515px;
-    height: 40px;
-}
-
-#most-like{
-    width: 515px;
-    height: 40px;
+    padding: 20px;
+    color: #FFF;
 }
 
 #title{
@@ -50,16 +31,18 @@ form{
     font-size: 1.125rem;
 }
 
-button{
-    width: 520px;
-    height: 40px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    border: none;
-    margin-top: 30px;
-    background-color: rgb(55, 175, 101);
-    color: white;
-    cursor: pointer;
+.btn{
+    font-size: 18px !important;
+    background-color: rgb(55, 175, 101) !important;
+    color: white !important;
+}
+
+.btn:hover{
+    border: 2px solid rgb(55, 175, 101);
+}
+
+.form-control:hover{
+    border: 2px solid hsla(207, 45%, 58%, 0.856);
 }
 
 label{
@@ -67,7 +50,8 @@ label{
     font-size: 1.25rem;
 }
 
-@media only screen and (max-width: 540px) {
+
+/* @media only screen and (max-width: 540px) {
     form{
         width: 470px;
         padding-left: 20px;
@@ -131,7 +115,7 @@ label{
     #comment{
         width: 305px; 
     }
-}
+} */
 
 
 
